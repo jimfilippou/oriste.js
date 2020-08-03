@@ -9,7 +9,7 @@
             return console.log('');
         };
         trelos.sayKalispera = function () {
-            var audio = new Audio('friends.mp3');
+            var audio = new Audio('./audio/friends.mp3');
             audio.play();
         };
         return _trelos;

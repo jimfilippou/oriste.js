@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">The streaming torrent client. For node.js and the web.</h4>
+<h4 align="center">Inject kostasotrelos0 to your website seamlessly!</h4>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/oriste.js"><img src="https://img.shields.io/npm/v/oriste.js.svg" alt="npm version"></a>
@@ -15,5 +15,5 @@
   <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="Standard - JavaScript Style Guide"></a>
 </p>
 
-**Oriste.js** is a way to seamlessly inject kostasotrelos0 to your website. YEP,
-THAT'S RIGHT. THE BROWSER. It's written completely in JavaScript – the language of the web!
+**Oriste.js** is a library, that seamlessly injects "kostasotrelos0" to your website.
+You can interact with him though a rich API provided entirely in JavaScript.
