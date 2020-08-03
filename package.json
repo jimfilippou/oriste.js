@@ -6,7 +6,8 @@
   "author": "Dimitrios Filippou",
   "license": "MIT",
   "scripts": {
-    "build": "parcel build client/index.html"
+    "build": "parcel build client/index.html",
+    "start": "parcel client/index.html"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",

@@ -3,21 +3,26 @@
 
     function kostasotrelos0() {
         var _trelos = {};
-        trelos.introduce = function (opts = {}) {
+        var _el = document.createElement('audio');
+        _el.innerHTML =
+            '<source src="' +
+            'https://raw.githubusercontent.com/jimfilippou/oriste.js/master/assets/audio/friends.mp3' +
+            '" type="audio/mpeg" />';
+        document.querySelector('body').appendChild(_el);
+        _trelos.introduce = function (opts = {}) {
             const message = 'Καλησπέρα friends! ορίστε!';
             opts.needsAttention ? alert(message) : console.log(message);
             return console.log('');
         };
-        trelos.sayKalispera = function () {
-            var audio = new Audio('./audio/friends.mp3');
+        _trelos.sayKalispera = function () {
+            var audio = document.querySelector('audio');
             audio.play();
         };
         return _trelos;
     }
 
     if (typeof window.kostasotrelos0 === 'undefined') {
-        window.globalTrelos = kostasotrelos0();
+        window.kostasotrelos0 = kostasotrelos0();
+        console.log('[!] Kostasotrelos0 was loaded!');
     }
 })(window);
-
-console.log(kostasotrelos0);
