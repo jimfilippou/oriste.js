@@ -19,3 +19,16 @@
 
 **Oriste.js** is a library, that seamlessly injects "kostasotrelos0" to your website.
 You can interact with him though a rich API provided entirely in JavaScript.
+
+### Usage
+
+```javascript
+
+// Alerts 'Καλησπέρα friends! ορίστε!'
+window.kostasotrelos0.introduce({
+    needsAttention: true
+})
+
+// Says 'Καλησπέρα friends!' but with voice
+window.kostasotrelos0.sayKalispera()
+```
