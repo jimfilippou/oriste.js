@@ -1,0 +1,11 @@
+{
+  "name": "oriste.js",
+  "version": "0.0.2",
+  "description": "Insert kostasotrelos at your website seamlessly",
+  "main": "index.js",
+  "author": "Dimitrios Filippou",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
